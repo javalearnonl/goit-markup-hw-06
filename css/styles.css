@@ -717,8 +717,7 @@ img {
 /* ./////////////////////////////////// */
 .modal-form {
   margin-bottom: 8px;
-  margin-left: 24px;
-  margin-bottom: 24px;
+  padding: 0 24px;
   display: block;
 }
 .subtitle-modal {
