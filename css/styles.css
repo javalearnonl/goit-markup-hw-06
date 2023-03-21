@@ -847,6 +847,9 @@ img {
   border-radius: 4px;
   margin-right: 24px;
 }
+.input-footer::placeholder {
+  color: #fff;
+}
 .subscribe-button {
   color: var(--white-color);
   background-color: var(--button-color);
