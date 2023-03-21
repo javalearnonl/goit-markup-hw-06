@@ -710,7 +710,7 @@ img {
   padding: 6px 38px;
   color: var(--main-color);
   border-radius: 4px;
-
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: transparent;
 }
 .modal-form-field:focus {
@@ -724,6 +724,7 @@ img {
   transform: translateY(-50%);
   transition: fill var(--anim-fast);
   pointer-events: none;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-field:focus + .modal-form-icon {
   fill: var(--button-color);
@@ -743,7 +744,7 @@ img {
 
   resize: none;
 
-  transition: outline-color var(--anim-fast), box-shadow var(--anim-fast);
+  transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-message:focus {
   outline-color: var(--button-color);
@@ -760,6 +761,7 @@ img {
 .checked {
   fill: transparent;
   opacity: 0;
+  transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-custom-checkbox {
   cursor: pointer;
